@@ -1,12 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+  <meta charset="UTF-8">
+  <title>Đăng kí và đăng nhập</title>
 </head>
 <body>
-    <p>hahahahahahahahahahahahahahahaha</p>
+
+<div>
+  <h2>Đăng kí</h2>
+  <div>
+    <label for="username">Tên đăng nhập:</label>
+    <input type="text" id="username" name="username">
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+  </div>
+  <div>
+    <label for="password">Mật khẩu:</label>
+    <input type="password" id="password" name="password">
+  </div>
+  <button onclick="register()">Đăng kí</button>
+</div>
+
+<div>
+  <h2>Đăng nhập</h2>
+  <div>
+    <label for="login-username">Tên đăng nhập:</label>
+    <input type="text" id="login-username" name="login-username">
+  </div>
+  <div>
+    <label for="login-password">Mật khẩu:</label>
+    <input type="password" id="login-password" name="login-password">
+  </div>
+  <button onclick="login()">Đăng nhập</button>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
